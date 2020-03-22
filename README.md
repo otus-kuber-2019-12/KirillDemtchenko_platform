@@ -19,3 +19,6 @@ kubernetes-controllers
 * Создал RepliceSet и Deployment для сервиса paymentservice
 * Попробовал накатить/откатить изменения с помощью Deployment
 * Разобрался как с помощью Probe остлеживать корректность работы подов.
+
+kubernetes-security
+
