@@ -2,7 +2,7 @@
 KirillDemtchenko Platform repository
 
 kubernetes-intro:
-* Установил minikube и kind на рабочий компьютер.  
+* Установил minikube и kind на рабочий компьютер.
 * Проверил, что в кластере восстанавливаются ноды после удаления: core-dns - как ReplicaSet, остальные kube-apiserver скорее всего контролируются системными процессами - но это не очевидно в отличии от core-dns.
 * Создал Dockerfile для http сервера - на python http.server.
 * Создал манифест web-pod.yaml.
@@ -10,7 +10,7 @@ kubernetes-intro:
 * Скопировал репозиторий hipster shop, собрал/запушил образ frontend
 * Запустил под frontend - добавил необходимые переменные в env для запуска
 
-kubernetes-controllers
+kubernetes-controllers:
 * Создал поды с помощью ReplicaSet
 * Попробовал изменить версию приложения, применяя новый манифест
 * Попробовал изменить версию, удаляя поды и применяя манифест
@@ -19,5 +19,4 @@ kubernetes-controllers
 * Попробовал накатить/откатить изменения с помощью Deployment
 * Разобрался как с помощью Probe остлеживать корректность работы подов.
 
-kubernetes-security
-
+kubernetes-security:
