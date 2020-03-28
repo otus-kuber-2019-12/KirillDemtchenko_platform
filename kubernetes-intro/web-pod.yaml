@@ -18,6 +18,7 @@ spec:
 #          - 'sh'
 #          - '-c'
 #          - 'ps aux | grep ps'
+#
     livenessProbe:
       tcpSocket: { port: 8080 }
     volumeMounts:
