@@ -35,3 +35,6 @@ KirillDemtchenko Platform repository
 * Поигрался с IPVS
 * Разобрался с MetalLB
 * Поработал с Ingress и headless сервисом
+
+## kubernetes-volumes
+Развернул StatefulSet c minio и сделал последний доступным.
