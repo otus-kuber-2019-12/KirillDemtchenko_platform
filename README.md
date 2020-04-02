@@ -37,4 +37,9 @@ KirillDemtchenko Platform repository
 * Поработал с Ingress и headless сервисом
 
 ## kubernetes-volumes
-Развернул StatefulSet c minio и сделал последний доступным.
+* Развернул StatefulSet c minio и сделал последний доступным.
+
+## kubernetes-operators
+* Создал cr и crd. 
+* Посмотрел создание оператора, при деплоее использовал готовый
+* Удалил и восстановил инстанс БД, убедился, что данные сохранились в PV.
